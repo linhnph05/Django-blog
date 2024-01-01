@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <div id="heading-section">
+      <h1 id="post-heading">{{ project.title }}</h1>
+      <h2 id="post-description">{{ project.publish }}</h2>
+      <div id="post-tags-list">
+          {% for tag in project.tags.all %}
+              <div class="tag-item" style="background-color: #F9F5FF"><span style="color: #6941C6; margin: auto auto">{{ tag.name }}</span></div>
+          {% endfor %}
+      </div>
+    </div>
+
+    <div id="post-content">
+        <img src="{{ project.thumbnail.url }}" class="post-content-thumbnail">
+        <div>
+            {{ project.body|safe|linebreaks }}
+        </div>
+
+    </div>
+
+
+{% endblock %}

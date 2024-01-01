@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}My Blog{% endblock %}
+
+{% block content %}
+    <div id="heading-section">
+        <h1 id="page-heading">All Projects</h1>
+        <h2 id="page-description">Where I brainstorm ideas, build and ship products</h2>
+    </div>
+
+    <div id="projects-container">
+        {% for project in projects %}
+            <div class="project-item" onclick="location.href='{{ post.get_absolute_url }}';" style="cursor: pointer;">
+                <div class="project-item-left">
+                    <h5 class="project-date">{{ project.publish }}</h5>
+                    <h3 class="project-headline">{{ project.title }}</h3>
+                    <h4 class="projects-description">{{ project.body|truncatewords:20|safe}}</h4>
+                </div>
+
+                <div class="project-item-right">
+                    <img src="{{ project.thumbnail.url }}" class="project-image">
+                </div>
+
+            </div>
+        {% endfor %}
+
+    </div>
+{% endblock %}

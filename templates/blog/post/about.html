@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}My Blog{% endblock %}
+
+{% block content %}
+    <div id="heading-section">
+        <h2 style="margin-bottom: 0">Hi I'm a</h2>
+        <h1 id="identity">Bootstrapper</h1>
+        <img src="{% static 'img/cyberpunk.png'%}" id="profile-image">
+        <h2 style="font-size: 25px">I love helping others and creating value for this world</h2>
+    </div>
+
+    <div id="cv">
+        <div class="cv-section">
+            <h3>About Me</h3>
+            <p style="color: #C0C5D0">I am 18 and I have a strong passion for building useful software. My goals in the next five years is learning as much as I can about Machine learning, Deep learning and Math. I also practice Algorithms and Data Structures.</p>
+        </div>
+
+        <div class="cv-section">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Badminton</li>
+                <li>Chinese Chess</li>
+                <li>Listening to music</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h3>Skills:</h3>
+            <ul>
+                <li>Knows HTML, CSS, C++, Python</li>
+                <li>Can communicate effectively, present ideas to others</li>
+                <li>Can design any stuff(include ugly and beautiful one)</li>
+                <li>Good at high school, college math</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h3>Experience:</h3>
+            <ul>
+                <li>Member of STEM CLUB at High School for the Gifted Ho Chi Minh city </li>
+                <li>Member of the foreign finance committee at the Social Work Team of University of Science Ho Chi Minh city</li>
+                <li>Member of the foreign finance committee at BEE CLUB of University of Science Ho Chi Minh city</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h3>Education/Certification:</h3>
+            <ul>
+                <li>2023 - Now: Freshman at University of Science Ho Chi Minh city</li>
+                <li>2020-2023: High School for the Gifted</li>
+                <li>2016-2020: Tran Dai Nghia High School for the Gifted</li>
+            </ul>
+        </div>
+
+
+    </div>
+{% endblock %}

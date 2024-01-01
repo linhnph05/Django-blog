@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}{% endblock %}</title>
+        <link href="{% static "css/style.css" %}" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id ="navbar">
+            <div id="nav-container">
+
+              <div id="brand">
+                <a href="{% url 'blog:post_list'%}"><h1 id ="name">Hung Linh</h1></a>
+                <a href="{% url 'blog:post_list'%}"><img src ="{% static 'img/indieHacker.png' %}" id="logo"></a>
+              </div>
+
+              <div id="nav-menu">
+                <a class="nav-links {% if active_page == 'blog' %}nav-current{% endif %}" href="{% url 'blog:post_list'%}" >Blog</a>
+                <a class="nav-links {% if active_page == 'project' %}nav-current{% endif %}" href ="{% url 'blog:project_list'%}">Projects</a>
+                <a class="nav-links {% if active_page == 'about' %}nav-current{% endif %}" href ="{% url 'blog:about'%}">About</a>
+              </div>
+
+              <a id="burger-menu" ><img src="{% static 'img/burger.jpg' %}" height="50" width="50" onclick = "showNavLinks()"></a>
+
+            </div>
+
+            <div class="nav-links-block-open">
+              <a href="{% url 'blog:post_list'%}">
+                <div class="nav-links-block">
+                  <h2 class="nav-links {% if active_page == 'blog' %}nav-current{% endif %}">Blog</h2>
+                </div>
+              </a>
+              <a href ="{% url 'blog:project_list'%}">
+                <div class="nav-links-block">
+                  <h2 class="nav-links {% if active_page == 'project' %}nav-current{% endif %}">Projects</h2>
+                </div>
+              </a>
+              <a href ="{% url 'blog:about'%}">
+                <div class="nav-links-block">
+                  <h2 class="nav-links {% if active_page == 'about' %}nav-current{% endif %}">About</h2>
+                </div>
+              </a>
+            </div>
+        </div>
+
+        <div id="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <div id="footer">
+            <span id="copyright">© 2023</span>
+            <a class="social-links" href="https://www.facebook.com/nguyenphanhunglinh" target="_blank"><img src="{% static 'img/facebook.png' %}" width = "75" height = "25"></a>
+            <a class="social-links" href="https://github.com/linhnph05" target="_blank"><img src="{% static 'img/github.png' %}" width = "63" height = "25"></a>
+        </div>
+
+        <script  src="{% static 'js/script.js' %}"></script>
+        <script src="{% static 'ckeditor/ckeditor/ckeditor.js' %}"></script>
+    </body>
+</html>
