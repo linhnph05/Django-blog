@@ -1,0 +1,1093 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-12-24T13:52:22.376Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "My first blog post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-12-24T14:21:40.559Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-12-24T16:23:45.124Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "My first blog post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-12-24T16:23:52.106Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "My first blog post",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-12-24T16:24:09.430Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-12-25T14:02:03.471Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-12-25T14:02:28.168Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-12-26T08:28:23.154Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "My first blog post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-12-26T08:28:40.977Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-12-26T08:28:55.756Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-12-30T08:09:44.996Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-12-30T08:13:18.610Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-12-30T08:13:36.027Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-12-30T11:45:01.103Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-12-30T11:53:27.061Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-12-30T11:57:40.623Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-12-30T11:59:48.046Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-12-30T15:47:20.304Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Personal Blog/Portfolio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-12-30T15:47:47.080Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-12-30T15:58:09.420Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Personal Blog/Portfolio",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-12-30T15:58:26.551Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-12-31T08:16:50.099Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "My first blog post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-12-31T08:42:30.155Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-12-31T08:42:47.521Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-12-31T08:43:49.201Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-12-31T08:43:56.840Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "My second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-01-01T12:34:02.967Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add project",
+    "content_type": 8,
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change project",
+    "content_type": 8,
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete project",
+    "content_type": 8,
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view project",
+    "content_type": 8,
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$V87mH9Ovv78cllqlCO8wsm$gqjd1YBMeXCwC2umAZd7da1AIp8qeDbnb4h7gN+5SQQ=",
+    "last_login": "2023-12-26T08:03:06.554Z",
+    "is_superuser": true,
+    "username": "linh",
+    "first_name": "",
+    "last_name": "",
+    "email": "linh@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-12-11T15:09:52.426Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "project"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i0dxq3p65mq4gwx493zkpslga85ppe9s",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pCBKaS4dO8ZyDAMUjU0Ke3KeHdt0oVu_3vvv1Skba1x67LEKauzMur0uyXih7Qd5Du126x5busyJb0r-qBdX-csz8vh_h1U6vVbYwjWcfYcAAEHDoJiSDKwQSdlNLa4RJCSR28BYByEpGQ0EIhLQfX-ANtKOBY:1rCi3h:Nn2Po0Ywg74f7arSt-CdwyMu3P3PJ1DzP2Du4Ml7jL4",
+    "expire_date": "2023-12-25T15:19:01.284Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l7lcqg6qvfihk95v2lsskqhi6t40zhfs",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pCBKaS4dO8ZyDAMUjU0Ke3KeHdt0oVu_3vvv1Skba1x67LEKauzMur0uyXih7Qd5Du126x5busyJb0r-qBdX-csz8vh_h1U6vVbYwjWcfYcAAEHDoJiSDKwQSdlNLa4RJCSR28BYByEpGQ0EIhLQfX-ANtKOBY:1rI2P4:iBjK_jLYrhAYFrjF6UPJsbl8a26kD4OSNa0lMMSAt1c",
+    "expire_date": "2024-01-09T08:03:06.568Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "My first blog post",
+    "slug": "my-first-blog-post",
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod fermentum nisl, ultrices tristique quam hendrerit et. Suspendisse et rhoncus ipsum. Ut auctor nibh nulla, ac ultrices dolor faucibus at. Nulla tempor magna semper commodo ullamcorper. Suspendisse pulvinar eget orci ut interdum. Nunc non molestie neque. Sed sapien nisi, lacinia at laoreet nec, faucibus quis eros. Quisque in auctor massa. Sed ultricies tortor nec fermentum sodales. Aenean vitae dolor in tortor finibus pulvinar. Pellentesque a risus non massa vestibulum aliquam. Donec nunc ligula, posuere eu dolor sit amet, dictum suscipit neque. Integer elementum turpis in sem interdum, ut gravida quam varius. Praesent eget sagittis massa, ac vestibulum nisi. In hac habitasse platea dictumst. Suspendisse fermentum elit id blandit maximus. Etiam lacinia placerat ipsum vitae feugiat. Praesent suscipit tellus vel tortor pulvinar tincidunt. Etiam pulvinar sagittis purus id interdum. Praesent eget sapien ipsum. Phasellus eget molestie purus. Cras quis sem magna. Sed ornare tortor vel ipsum auctor scelerisque. Ut pulvinar erat et nisl dictum, in egestas eros vehicula. In quis nunc convallis, egestas augue vel, eleifend enim. In imperdiet at odio sit amet tempor. Duis fermentum arcu eget condimentum pharetra. Ut auctor neque eget luctus mollis. Proin ligula nulla, facilisis in efficitur ac, vehicula eget turpis. Aenean tristique nulla fringilla efficitur rutrum. Curabitur eu congue massa. Mauris ultricies aliquet purus at ultrices. Pellentesque lobortis posuere enim id maximus. Aliquam sit amet odio interdum, tempor felis sed, iaculis augue. Ut nulla tellus, pharetra a dolor ac, laoreet scelerisque erat. Quisque ac nisi ac sapien dignissim venenatis. Etiam libero dui, finibus a felis vel, condimentum iaculis risus. Cras at eros vitae orci euismod iaculis id nec turpis. Aenean placerat finibus velit, vel aliquam mi gravida quis. Donec nec accumsan massa.</p>",
+    "thumbnail": "images/flycam_2.jpg",
+    "publish": "2023-12-24T13:49:39Z",
+    "created": "2023-12-24T13:52:22.359Z",
+    "updated": "2023-12-31T08:16:50.090Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "My second post",
+    "slug": "my-second-post",
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod fermentum nisl, ultrices tristique quam hendrerit et. Suspendisse et rhoncus ipsum. Ut auctor nibh nulla, ac ultrices dolor faucibus at. Nulla tempor magna semper commodo ullamcorper. Suspendisse pulvinar eget orci ut interdum. Nunc non molestie neque. Sed sapien nisi, lacinia at laoreet nec, faucibus quis eros. Quisque in auctor massa. Sed ultricies tortor nec fermentum sodales. Aenean vitae dolor in tortor finibus pulvinar. Pellentesque a risus non massa vestibulum aliquam. Donec nunc ligula, posuere eu dolor sit amet, dictum suscipit neque. Integer elementum turpis in sem interdum, ut gravida quam varius. Praesent eget sagittis massa, ac vestibulum nisi. In hac habitasse platea dictumst. Suspendisse fermentum elit id blandit maximus. Etiam lacinia placerat ipsum vitae feugiat. Praesent suscipit tellus vel tortor pulvinar tincidunt. Etiam pulvinar sagittis purus id interdum. Praesent eget sapien ipsum. Phasellus eget molestie purus. Cras quis sem magna. Sed ornare tortor vel ipsum auctor scelerisque. Ut pulvinar erat et nisl dictum, in egestas eros vehicula. In quis nunc convallis, egestas augue vel, eleifend enim. In imperdiet at odio sit amet tempor. Duis fermentum arcu eget condimentum pharetra. Ut auctor neque eget luctus mollis. Proin ligula nulla, facilisis in efficitur ac, vehicula eget turpis. Aenean tristique nulla fringilla efficitur rutrum. Curabitur eu congue massa. Mauris ultricies aliquet purus at ultrices. Pellentesque lobortis posuere enim id maximus. Aliquam sit amet odio interdum, tempor felis sed, iaculis augue. Ut nulla tellus, pharetra a dolor ac, laoreet scelerisque erat. Quisque ac nisi ac sapien dignissim venenatis. Etiam libero dui, finibus a felis vel, condimentum iaculis risus. Cras at eros vitae orci euismod iaculis id nec turpis. Aenean placerat finibus velit, vel aliquam mi gravida quis. Donec nec accumsan massa.</p>\r\n\r\n<p><img alt=\"\" class=\"post-content-image\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi8nmn9doZJY2Z9DCbdzZW3bLj_nwYfyRARY61wzC_OQ&amp;s\" style=\"height:155px; margin:0 auto; width:325px\" /></p>",
+    "thumbnail": "images/flycam_2_qBjpwlV.jpg",
+    "publish": "2023-12-24T14:20:41Z",
+    "created": "2023-12-24T14:21:40.529Z",
+    "updated": "2023-12-31T08:43:56.822Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "New title",
+    "slug": "another-post",
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a interdum nibh. Curabitur ex ligula, iaculis non vulputate quis, faucibus vel libero. Ut non massa in turpis varius eleifend. Praesent pulvinar leo sed ligula condimentum ultrices. In arcu orci, pharetra eget euismod quis, malesuada sed purus. Praesent eu eros elit. Ut nibh elit, scelerisque ac quam vitae, accumsan laoreet arcu. Nunc in mauris nec diam bibendum pretium. Curabitur vestibulum feugiat ultricies. Morbi gravida ullamcorper aliquam. Vestibulum tristique nisl ac felis mollis varius. Integer semper volutpat elit. Nulla sit amet nisl diam. Nulla euismod eget lectus eu viverra. Cras lorem risus, suscipit vitae tortor ac, tempor viverra massa. Nullam placerat interdum vehicula. Proin non mattis nisl, nec pellentesque purus. Aenean id pulvinar lacus. Curabitur nec risus sodales, interdum lacus id, gravida lacus. Maecenas dignissim eget magna et porttitor. Duis sagittis dui non mattis lobortis. Cras et lacus massa. Maecenas cursus magna et eleifend blandit. In a vestibulum quam. Praesent a diam massa. Fusce egestas euismod dui, a sagittis lacus sagittis ac. Nunc sagittis ornare vulputate. Ut tempor dolor diam, non scelerisque tellus rutrum quis. Proin id libero eget dolor euismod tristique id ut tellus. Vestibulum sollicitudin ipsum sed nunc tincidunt feugiat. Ut volutpat et nibh sed accumsan. Nulla fringilla, arcu ac gravida aliquam, turpis augue blandit enim, et sagittis nunc mi posuere elit. Sed in tempor nunc. Integer enim lectus, vehicula nec placerat eu, accumsan a lorem. Curabitur fringilla lacus ligula, pulvinar consectetur tortor viverra non. Suspendisse feugiat nisl mauris. Phasellus convallis nisl ut vestibulum tristique. Proin gravida molestie nisi eu congue. Donec consectetur nisi vel bibendum ultricies. Duis ut ultricies dui. Cras neque metus, varius quis pulvinar et, fringilla a metus. Duis a mollis purus. Nulla mollis quam non arcu tincidunt eleifend. Morbi dapibus luctus vulputate. Praesent posuere sodales eros nec fringilla. Curabitur sit amet sodales est. Curabitur eu vestibulum quam, vel cursus tortor. Pellentesque eleifend varius purus eu iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin nec nisl ut dolor facilisis fringilla. Nunc in nulla quis turpis aliquam tristique. Mauris eget sem non ante porttitor eleifend. In hac habitasse platea dictumst. Sed auctor eget eros eget rhoncus. Nullam magna ligula, feugiat at vehicula eget, porta in erat.</p>",
+    "thumbnail": "images/flycam_2_0Dorb7b.jpg",
+    "publish": "2023-12-24T14:32:38Z",
+    "created": "2023-12-24T14:32:44.780Z",
+    "updated": "2023-12-31T08:42:47.521Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.project",
+  "pk": 1,
+  "fields": {
+    "title": "Personal Blog/Portfolio",
+    "slug": "personal-blogportfolio",
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel justo vitae lacus tincidunt ultrices. Mauris auctor tristique urna, in feugiat odio hendrerit in. Sed vel ullamcorper felis. Vivamus aliquet mauris in bibendum euismod.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget justo sit amet ligula vestibulum tristique. Sed accumsan ligula in sem congue, non tincidunt erat tincidunt. Nullam at fringilla est, sit amet congue lectus.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod massa ut ipsum dignissim, vel cursus purus malesuada. Curabitur ac turpis vitae nulla commodo rhoncus. Nulla facilisi. Integer in efficitur ipsum, ut consectetur mauris</p>",
+    "thumbnail": "images/3.jpg",
+    "publish": "2023-12-30T15:45:43Z",
+    "created": "2023-12-30T15:47:20.298Z",
+    "updated": "2023-12-30T15:58:09.411Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.project",
+  "pk": 2,
+  "fields": {
+    "title": "Test",
+    "slug": "test",
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel justo vitae lacus tincidunt ultrices. Mauris auctor tristique urna, in feugiat odio hendrerit in. Sed vel ullamcorper felis. Vivamus aliquet mauris in bibendum euismod.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget justo sit amet ligula vestibulum tristique. Sed accumsan ligula in sem congue, non tincidunt erat tincidunt. Nullam at fringilla est, sit amet congue lectus.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod massa ut ipsum dignissim, vel cursus purus malesuada. Curabitur ac turpis vitae nulla commodo rhoncus. Nulla facilisi. Integer in efficitur ipsum, ut consectetur mauris</p>",
+    "thumbnail": "images/7.jpg",
+    "publish": "2023-12-30T15:47:27Z",
+    "created": "2023-12-30T15:47:47.075Z",
+    "updated": "2023-12-30T15:58:26.545Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "work",
+    "slug": "work"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "code",
+    "slug": "code"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Django",
+    "slug": "django_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "AI",
+    "slug": "ai"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Djanog",
+    "slug": "djanog"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
