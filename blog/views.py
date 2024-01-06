@@ -4,7 +4,7 @@ from django.http import Http404
 from django.views.generic import ListView
 from taggit.models import Tag
 from django.db.models import Count
-from django.contrib.postgres.search import SearchVector
+from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank
 from .forms import SearchForm
 class PostListView(ListView):
     queryset = Post.published.all()
@@ -47,9 +47,13 @@ def post_list(request, tag_slug=None):
         form = SearchForm(request.GET)
         if form.is_valid():
             query = form.cleaned_data['query']
+            search_vector = SearchVector('title', weight='A') + \
+SearchVector('body', weight='B')
+            search_query = SearchQuery(query)
             results = Post.published.annotate(
-                search=SearchVector('title', 'body'),
-            ).filter(search=query)
+                search=search_vector,
+                rank=SearchRank(search_vector, search_query)
+            ).filter(rank__gte=0.3).order_by('-rank')
     return render(request, 'blog/post/index.html', {'posts': posts, 'active_page': active_page, 'tag': tag, 'form': form,
                    'query': query,
                    'results': results})

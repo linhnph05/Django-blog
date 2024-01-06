@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -87,13 +85,12 @@ WSGI_APPLICATION = 'BlogDjango.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'blog',
-    #     'USER': 'linh',
-    #     'PASSWORD': 'helloDjango',
-    # }
-    "default": dj_database_url.parse(os.environ.get("postgres://linh:wIR7lTALOkqSIzeMd0PcSx0oNe3MRXeK@dpg-cmclv4md3nmc73dch940-a.oregon-postgres.render.com/blog_tqrp"))
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blog',
+        'USER': 'linh',
+        'PASSWORD': 'helloDjango',
+    }
 }
 
 
