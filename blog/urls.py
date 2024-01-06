@@ -13,4 +13,5 @@ urlpatterns = [
     path('projects/', views.project_list, name='project_list'),
     path('projects/project/<int:id>/', views.project_detail, name='project_detail'),
     path('about/', views.about, name='about'),
+    path('blog/search/', views.post_search, name='post_search'),
 ]
