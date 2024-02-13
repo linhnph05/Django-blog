@@ -1,5 +1,3 @@
-## Link webiste: [HungLinh.pythonanywhere.com](http://HungLinh.pythonanywhere.com)
-
 ## Technology used: HTML, CSS, Javascript, Django
 
 ## Package: django-taggit, django-ckeditor
