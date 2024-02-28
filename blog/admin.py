@@ -1,12 +1,3 @@
-#Admin
-#linh
-#linh@gmail.com
-#123456
-
-#Postgres SQL
-#linh
-#Pass: helloDjango
-
 from django.contrib import admin
 from .models import Post, Project
 from ckeditor.widgets import CKEditorWidget
